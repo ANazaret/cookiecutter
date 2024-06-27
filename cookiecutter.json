@@ -1,7 +1,7 @@
 {
-    "author": "Florian Maas",
-    "email": "fpgmaas@gmail.com",
-    "author_github_handle": "fpgmaas",
+    "author": "Achille Nazaret",
+    "email": "achille.nazaret@gmail.com",
+    "author_github_handle": "anazaret",
     "project_name": "example-project",
     "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')}}",
     "project_description": "This is a template repository for Python projects that use Poetry for their dependency management.",
@@ -10,7 +10,7 @@
     "deptry": ["y", "n"],
     "mkdocs": ["y", "n"],
     "codecov": ["y", "n"],
-    "dockerfile": ["y", "n"],
+    "dockerfile": ["n", "y"],
     "devcontainer": ["y", "n"],
     "open_source_license": [
         "MIT license",
